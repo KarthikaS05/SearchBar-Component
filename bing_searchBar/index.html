@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Css link -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- fav icon link -->
+    <link rel="shortcut icon" href="images/bing.png" type="image/x-icon" />
+
+    <title>Bing Search</title>
+  </head>
+  <body>
+    <!--Where ever thr is a input field , the container will be a form-->
+    <form class="bingSearchBar">
+      <input class="bingSearchBar_input" type="text" />
+      <!-- not giving class name to <a> since its used for similar elems -->
+      <a
+        ><ion-icon name="mic-outline"></ion-icon
+        ><span class="tooltips">Search using voice</span></a
+      >
+      <a
+        ><ion-icon name="logo-instagram"></ion-icon
+        ><span class="tooltips">Search using an image</span></a
+      >
+      <a
+        ><ion-icon name="search-outline"></ion-icon
+        ><span class="tooltips">Search the web</span></a
+      >
+    </form>
+    <!-- Icon script -->
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+  </body>
+</html>

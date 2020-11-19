@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+
+/* CSS Reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+}
+
+.googleSearchBar {
+  width: 470px;
+  height: 45px;
+  border-radius: 45px;
+  border: 1px solid #dfe1e5;
+  display: flex;
+  align-items: center;
+   padding: 4px 16px;
+}
+
+.searchGlass ion-icon {
+}
+
+.search_input {
+
+  flex-grow: 1;
+}
+
+
+.searchMic {
+}
